@@ -1,0 +1,14 @@
+body{
+  background-color:black;
+}
+.redPara{
+  color:red;
+}
+#firstHeader{
+  color:red;
+  font-weight: bold;
+}
+.greenText{
+  color:green;
+  font-style: italic;
+}
