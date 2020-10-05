@@ -1,0 +1,25 @@
+div{
+  margin: 10px 0px 40% 0px;
+  background-color: green;
+}
+
+div div{
+  margin: 0px 15px 30px 15px;
+  border: black 5px dashed;
+  padding: 20px 10px 20px 10px;
+}
+
+div div p{
+  color: red;
+  font-size: 25px;
+}
+
+div div p + p{
+  color: darkgreen;
+  font-size: 25px;
+}
+
+div p{
+  color: purple;
+  font-size: 25px;
+}

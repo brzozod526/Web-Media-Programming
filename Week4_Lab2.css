@@ -1,0 +1,40 @@
+#mybox{
+margin: 10px 10px 10px 10px;
+border: purple 3px dashed;
+padding: 20% 20px 20px 20px;
+}
+
+#p1{
+  text-align: center;
+}
+
+#p2{
+  color: green;
+  font-weight: bold;
+  font-size: 15px;
+  text-align: center;
+}
+
+#p3{
+  color: orange;
+  font-size: 30px;
+  text-alight: left;
+}
+
+#p3-2{
+  color: red;
+  font-size: 30;
+  vertical-align: 15px;
+}
+
+#p4{
+  color: purple;
+  font-size: 10px;
+  text-align: right;
+}
+
+#p4-2{
+  color: yellow;
+  font-size: 10px;
+  font-style: italic;
+}
