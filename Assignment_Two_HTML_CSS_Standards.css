@@ -1,0 +1,51 @@
+h1,h2,p,li {
+  font-family:"Comic Sans MS", cursive, sans-serif;
+}
+#list {
+  position: absolute;
+  top: 10px;
+  left: 25px;
+}
+ol li {
+  font-size: 15px;
+  color: yellow;
+  text-transform: uppercase;
+}
+ol li + li {
+  color: blue;
+}
+ol li + li + li {
+  color: red;
+}
+#betterlist {
+  position: relative;
+  left: 500px;
+}
+ul li{
+  font-size: 20px;
+  font-style: italic;
+  color: #30D5C8;
+}
+ul li + li {
+  color: #E6E6FA;
+}
+ul li + li + li {
+  color: #F0EAD6;
+}
+#brocku {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+}
+#extrajunk {
+  margin: 0px 15px 30px 15px;
+  border: black 5px dashed;
+  padding: 20px 10px 20px 10px;
+}
+#extrajunk p{
+  color: purple;
+}
+#wrapper {
+  width: 90%;
+  margin:0 auto;
+}
