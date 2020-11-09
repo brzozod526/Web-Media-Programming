@@ -1,0 +1,116 @@
+body {
+  background-color: #AD71E4;
+}
+
+#wrapper {
+  padding: 50px;
+}
+
+#navigation_column {
+  width: 20%;
+  height: 850px;
+  background-color: #7371E4;
+}
+
+#mascot {
+  position: relative;
+  top: 50px;
+  left: 125px;
+}
+
+#nav_box {
+  width: 70%;
+  height: 68%;
+  background-color: #65AD8C;
+  position: relative;
+  left: 11%;
+  top: 100px;
+  padding-left: 25px;
+  padding-top: 10px;
+}
+
+#banner_box {
+  padding-left: 25px;
+  padding-right: 25px;
+  width: 68%;
+  height: 100px;
+  background-color: #7371E4;
+  position: absolute;
+  top: 60px;
+  left: 500px;
+}
+
+#banner {
+  position: relative;
+  top: 8px;
+  left: 475px;
+}
+
+#textbox {
+  padding-left: 25px;
+  padding-right: 25px;
+  width: 68%;
+  height: 560px;
+  background-color: #65AD8C;
+  position: absolute;
+  top: 200px;
+  left: 500px;
+}
+
+h1, h2, h3 {
+  font-family: "Arial Narrow";
+}
+
+p {
+  font-family: "Arial";
+}
+
+#socials_box {
+  background-color: #7371E4;
+  padding-left: 25px;
+  padding-right: 25px;
+  width: 68%;
+  height: 100px;
+  position: absolute;
+  left: 500px;
+  bottom: 60px;
+}
+#copyright {
+  font-family: "Arial Narrow";
+  position: absolute;
+  top: 20px;
+}
+
+#social_media {
+  font-family: "Arial Narrow";
+  position: absolute;
+  bottom: 17px;
+  left: 900px;
+}
+
+#youtube_link {
+  width: 40px;
+  height: 40px;
+  background-color: red;
+  position: absolute;
+  left: 1090px;
+  bottom: 30px;
+}
+
+#twitch_link {
+  width: 40px;
+  height: 40px;
+  background-color: purple;
+  position: absolute;
+  left: 1180px;
+  bottom: 30px;
+}
+
+#twitter_link {
+  width: 40px;
+  height: 40px;
+  background-color: lightblue;
+  position: absolute;
+  left: 1270px;
+  bottom: 30px;
+}
