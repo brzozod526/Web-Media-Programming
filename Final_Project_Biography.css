@@ -1,0 +1,100 @@
+body {
+  background-image: url('https://i.imgur.com/hS43dro.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 20%;
+  background-color: #F6DEB0;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  opacity: 75%;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Arial Narrow', sans-serif;
+}
+.sidebar a {
+  display: block;
+  color: #1A2426;
+  padding: 16px;
+  text-decoration: none;
+}
+.sidebar a.active {
+  background-color: #A42921;
+  color: white;
+}
+.sidebar a:hover:not(.active) {
+  background-color: #E68A37;
+  color: white;
+}
+div.content {
+  margin-left: 20%;
+  padding: 1px 16px;
+  height: 1000px;
+}
+.header {
+  position: absolute;
+  left: 32%;
+  width: 35%;
+}
+.timedatebox {
+  position: fixed;
+  left: 80%;
+  top: 2%;
+  width: 19%;
+  height: 17%;
+  background-color: #F6DEB0;
+  opacity: 50%;
+  font-family: 'Arial Narrow', sans-serif;
+  text-align: center;
+  font-size: 25px;
+}
+.timedate{
+  position: relative;
+  top: 12%;
+}
+.clock{
+  font-size: 30px;
+}
+.contentbox {
+  position: absolute;
+  left: 21%;
+  top: 25%;
+  background-color: #F6DEB0;
+  opacity: 75%;
+  width: 55%;
+  height: auto;
+  word-wrap: break-word;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+h1 {
+  position: relative;
+  font-family: 'Arial Narrow', sans-serif;
+  color: #1A2426;
+}
+p {
+  position: relative;
+  font-family: 'Arial Narrow', sans-serif;
+  font-size: 20px;
+  color: #1A2426;
+}
+.socials_box {
+  position: absolute;
+  left: 21%;
+  top: 139%;
+  background-color: #F6DEB0;
+  opacity: 75%;
+  width: 57.6%;
+  height: 12.7%;
+}
+.social_media {
+  width: 100px;
+  position: relative;
+  left: 80%;
+  top: 9%
+}

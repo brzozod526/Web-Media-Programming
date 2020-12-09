@@ -1,0 +1,123 @@
+body {
+  background-image: url('https://i.imgur.com/hS43dro.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #1A2426;
+  opacity: 75%;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 1s;
+}
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #F6DEB0;
+  display: block;
+  transition: 0.3s;
+}
+.sidenav a:hover {
+  color: #B75129;
+}
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+.navbutton{
+  font-size: 20px;
+  font-family: 'Arial Narrow', sans-serif;
+  position: fixed;
+  top: 15px;
+  left: 15px;
+  background-color: #F6DEB0;
+  opacity: 75%;
+  cursor: pointer;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.navbutton:hover {
+  background-color: #E68A37;
+  color: white;
+}
+.header {
+  position: absolute;
+  left: 32%;
+  width: 35%;
+}
+.portfoliowrap{
+  padding-top: 250px;
+  padding-bottom: 50px;
+}
+.container {
+  position: relative;
+  width: 100%;
+}
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 1s ease;
+  background-color: #B75129;
+}
+.container:hover .overlay {
+  opacity: 75%;
+}
+.text {
+  color: #F6DEB0;
+  font-size: 20px;
+  font-family: 'Arial Narrow', sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.column {
+  float: left;
+  width: 30%;
+  padding: 30px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.socials_box {
+  margin-top: 50px;
+  position: relative;
+  background-color: #F6DEB0;
+  opacity: 75%;
+  width: 100%;
+  height: 12.7%;
+}
+.social_media {
+  width: 100px;
+  position: relative;
+  left: 89%;
+}
